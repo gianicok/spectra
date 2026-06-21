@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spectra"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = ["numpy", "matplotlib", "scipy", "pandas"]
+
+[tool.setuptools]
+py-modules = ["spectra"]
+
+[project.scripts]
+spectra = "spectra:main"
