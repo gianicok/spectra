@@ -2,6 +2,8 @@
 
 Interactive nuclear spectrum analysis tool. Load a pulse-height histogram, graphically select peaks, fit Gaussians, and get a calibrated energy spectrum.
 
+![Demo](spectra.gif)
+
 ## Install
 
 Requires Python 3.9+ with numpy, matplotlib, scipy, and pandas.
